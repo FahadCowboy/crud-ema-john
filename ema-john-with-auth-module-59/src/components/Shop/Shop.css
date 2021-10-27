@@ -1,0 +1,45 @@
+.search-container{
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    line-height: 40px;
+}
+.search-container input{
+    width: 75%;
+}
+.shop-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.product-container{
+    border-right: 1px solid lightgray;
+    margin-right: 5px;
+    margin-left: 50px;
+}
+
+.pagination{
+    margin: 20px auto;
+}
+
+.pagination-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination .pagination-container>button{
+    padding: 9px 16px 6px 16px;
+    border: 1px solid #5b86ff;
+    border-right: none;
+    font-size: 1.1rem;
+    color: #5b86ff;
+    background-color: transparent;
+}
+
+.pagination .pagination-container>button:last-child{
+    border-right: 1px solid #5b86ff;
+}
+
+.pagination-btn{
+    color: #ffffff !important;
+    background-color: #5b86ff !important;
+}
